@@ -163,6 +163,12 @@ ul li {
     position: relative;
 }
 
+.icon:hover {
+    transform: scale(1.10);
+    transition: transform 200ms ease;
+    
+  }
+
 .icon img {
     width: 100%;    
 }
@@ -174,18 +180,28 @@ align-items: center;
 justify-content: center;
 }
 
-.contactMebtn{
-    border-radius: 25px;
-    border: none;
-    padding: 1em;
-    width: min-content;
-    font-size: 1em;
-    border: 3px solid black;
+
+
+.contactMebtn {
     background-color: var(--color3);
+    color: #fff;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 15px;
+    border: none;
+    border-radius: .5em;
     cursor: pointer;
-    color: var(--color5);
-    text-align: center;
-}
+    transition: transform 200ms ease;
+    text-decoration: none;
+    list-style: none
+  }
+  
+  .contactMebtn:hover {
+    transform: scale(1.05);
+    transition: transform 200ms ease;
+    
+  }
+
 
 .tituloSection {
     color: black;
